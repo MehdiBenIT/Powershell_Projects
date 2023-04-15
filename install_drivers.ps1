@@ -1,7 +1,7 @@
 ﻿#Name          :   install_drivers.ps1
 #Date          :   25/07/2022
 #Description   :   Ce script permet d'installer automatiquement les pilotes correspondant au modèle du PC sur lequel le script est éxécuté.
-#Auteur        :   Mehdi Bennouar
+#Auteur        :   Mehdi B.
 
 $infosComputer = Get-CimInstance -ClassName Win32_ComputerSystem -Property *
 
